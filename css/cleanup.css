@@ -1,1 +1,46 @@
+/* cleanup.css - hides all graffiti tags on the wall */
+
+
+/* Overrides for tag-1 */
+#wall .tag-1 {
+  background: none;
+  display: none;
+}
+
+/* Overrides for tag-2 */
+#wall #tag-2 {
+  background: none;
+  display: none;
+}
+
+/* Overrides for tag-3 (has class 'slick') */
+#wall #tag-3.slick {
+  background: none;
+  display: none;
+}
+
+/* Overrides for tag-4 (nested in .parent) */
+#wall .parent #tag-4 {
+  background: none;
+  display: none;
+}
+
+/* Overrides for tag-5 (also has class 'slick') */
+#wall .parent #tag-5.slick {
+  background: none;
+  display: none;
+}
+
+/* Overrides for deeply nested tag-6 */
+#wall .parent div:last-child #tag-6 {
+  background: none;
+  display: none;
+}
+
+/* Overrides for deeply nested tag-7 with class 'slick' */
+#wall .parent div > #tag-7.slick {
+  background: none;
+  display: none;
+}
+
 /* write your override styles here */
